@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-align: center;
+}
+h1{
+    height:80px;
+    line-height:80px;
+    background-color:#022F40;
+    color:#ffff;
+    font-size: 50px;
+    /* color:#fb00006a */
+}
+.choices{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5rem;
+}
+.choice{
+    height:170px;
+    width:170px; 
+    /* background-color: black; */
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+}
+.choice:hover{
+    background-color:#022F40;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    border-radius:50%;  
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    margin:0 auto;
+}
+.user{
+    color:#022F40;
+    font-weight: bold;
+    gap:10rem;
+    font-size: 40px;
+    width:500px;
+    margin: 5rem auto;
+    /* border-radius: 2rem;   */
+}
+.comp{
+    color:#022F40;
+    font-weight: bold;
+    gap:10rem;
+    font-size: 40px;
+    width:500px;
+    margin: 5rem auto;
+    
+}
+.score .players{
+    text-decoration:underline;
+    margin-top: 10px;
+}
+
+.msg-container{
+   
+  text-align: center;
+  margin-top: 3rem;
+}
+#msg{
+    background-color: #046E8F;
+    padding: 1rem;
+    text-align: center;
+    display:inline;
+    height:3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    border-radius:1.5rem;
+}
+.U_Score{
+    font-weight: bold;
+    gap:10rem;
+    font-size: 40px;
+    width:500px;
+    margin: 5rem auto;
+    transform: scale(1.5,1.5);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    color:rgb(6, 120, 6);
+}
+.C_Score{
+    font-weight: bold;
+    gap:10rem;
+    font-size: 40px;
+    width:500px;
+    margin: 5rem auto;
+    transform: scale(1.5,1.5);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    color:rgb(111, 3, 3);
+}
+.common{
+   /* text-align: center; */
+   color:#022F40;
+   font-weight: bold;
+   gap:10rem;
+   font-size: 40px;
+   width:500px;
+   margin: 2rem auto;
+}
